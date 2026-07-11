@@ -1,6 +1,6 @@
 # 📚 Student Guide AI
 
-Week 1 Submission
+Week 1 Submission - PDF Reader using Streamlit
 
 ## Description
 
