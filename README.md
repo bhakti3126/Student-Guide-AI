@@ -1,36 +1,37 @@
-# 📚 Student Guide AI
+# 📚 Student Guide AI - Week 2
 
-Week 1 Submission - PDF Reader using Streamlit
+## Project Overview
+Student Guide AI is a Retrieval-Augmented Generation (RAG) application that answers questions from uploaded study notes.
 
-## Description
+## Week 2 Progress
 
-Student Guide AI is an AI-powered assistant that helps students learn from subject PDFs.
+✔ Read PDF using PyPDF
 
-Week 1 features:
+✔ Split text into chunks
 
-- Read PDF using PyPDF
-- Display extracted text in Streamlit
-- Basic project structure
+✔ Generate embeddings
+
+✔ Store embeddings in ChromaDB
+
+✔ Retrieve relevant chunks
+
+✔ Connect Groq LLM
+
+✔ Answer user questions
+
+✔ Streamlit Interface
 
 ## Technologies
 
 - Python
 - Streamlit
+- LangChain
+- ChromaDB
+- Groq API
 - PyPDF
-
-## Project Structure
-
-```
-app.py
-rag.py
-requirements.txt
-data/
-README.md
-```
 
 ## How to Run
 
-```bash
 pip install -r requirements.txt
+
 streamlit run app.py
-```
